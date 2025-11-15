@@ -10,6 +10,8 @@
 
 1. Navigate to `linkedflow-frontend`
 2. Copy `.env.example` to `.env.local`
+3. Install dependencies: `npm install`
+4. Run development server: `npm run dev`
 
 ## Backend Setup
 

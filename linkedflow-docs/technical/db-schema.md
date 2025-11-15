@@ -13,5 +13,7 @@ PostgreSQL database schema managed with Prisma ORM.
 - **Calendar** - Scheduled posts and events
 - **AI Prompts** - Stored prompt templates
 
+## Schema File
 
+See `linkedflow-backend/prisma/schema.prisma` for complete schema definition.
 

@@ -32,12 +32,13 @@ Deployment is handled directly through Render and Vercel, no Docker setup requir
 
 ### Database Deployment
 
-- Render PostgreSQL service or any managed PostgreSQL service
+- Use Render PostgreSQL service or any managed PostgreSQL service
 - Update `DATABASE_URL` in production environment
 - Run migrations: `npx prisma migrate deploy` (can be done via Render shell or CI/CD)
 
 ## Environment Variables
 
+Ensure all production environment variables are set:
 - Database connection string
 - JWT secret (use strong random string)
 - API keys for OpenAI and Anthropic

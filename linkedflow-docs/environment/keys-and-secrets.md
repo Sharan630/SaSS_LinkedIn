@@ -24,7 +24,7 @@
 - Use `.env.example` as template
 
 ### Production
-- environment variable management in hosting platform
+- Use environment variable management in hosting platform
 - Never commit secrets to version control
 - Rotate keys regularly
 - Use secret management services (AWS Secrets Manager, etc.)

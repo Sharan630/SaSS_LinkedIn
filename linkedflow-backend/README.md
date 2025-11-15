@@ -24,10 +24,5 @@ Copy `.env.example` to `.env` and configure your environment variables.
 
 ## Deployment
 
-Deployment is handled directly through Render and Vercel, no Docker setup required.
-
-- **Backend**: Deploy to Render
-- **Frontend**: Deploy to Vercel
-
-Both platforms handle containerization automatically.
+Deployment is handled directly through Render and Vercel, no Docker setup required. Both platforms handle containerization automatically.
 
